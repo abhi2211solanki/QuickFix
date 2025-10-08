@@ -20,7 +20,7 @@ It allows students to easily register issues related to hostel facilities like p
 | Category | Technology Used |
 |-----------|----------------|
 | **Frontend** | HTML5, CSS3, JavaScript |
-| **Backend** | (To be added – Node.js / Flask / Django) |
+| **Backend** | ( Node.js / Flask / Django) |
 | **Database** | (To be added – MySQL / MongoDB) |
 | **Version Control** | Git & GitHub |
 | **IDE** | Visual Studio Code |
@@ -41,4 +41,4 @@ This leads to:
 
 ## 📸 Screenshots (to be added)
 
-You can later add screenshots here like:
+
