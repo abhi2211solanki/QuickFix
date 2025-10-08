@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickFix - Hostel Complaint Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar">
+        <div class="logo">🏠 QuickFix</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#complaint-form">Register Complaint</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <h1>Welcome to QuickFix</h1>
+        <p>Your hostel’s one-stop portal for complaint registration and tracking.</p>
+        <a href="#complaint-form" class="btn">Register a Complaint</a>
+    </section>
+
+    <!-- ===== COMPLAINT FORM ===== -->
+    <section id="complaint-form" class="form-section">
+        <h2>Register Your Complaint</h2>
+        <form id="complaintForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="room">Room Number:</label>
+            <input type="text" id="room" name="room" placeholder="e.g., B-203" required>
+
+            <label for="category">Complaint Category:</label>
+            <select id="category" name="category" required>
+                <option value="">-- Select Category --</option>
+                <option value="plumbing">Plumbing</option>
+                <option value="electrical">Electrical</option>
+                <option value="cleaning">Cleaning</option>
+                <option value="ac">AC / Ventilation</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="details">Complaint Details:</label>
+            <textarea id="details" name="details" rows="4" placeholder="Describe your issue here..." required></textarea>
+
+            <button type="submit" class="btn">Submit Complaint</button>
+        </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 QuickFix | Developed by Abhinav Solanki</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
